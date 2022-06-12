@@ -1,0 +1,77 @@
+/* for desktop */
+@-webkit-keyframes open {
+	0% {
+		 	right: -21vw;
+	}
+	100% {
+		 	right: 1vw;
+	}
+	
+}
+
+@keyframes open {
+	0% {
+		 	right: -21vw;
+	}
+	100% {
+		 	right: 1vw;
+	}
+}
+
+@-webkit-keyframes close {
+	100% {
+		 	right: -21vw;
+	}
+	0% {
+		 	right: 1vw;
+	}
+	
+}
+
+@keyframes close {
+	100% {
+		 	right: -21vw;
+	}
+	0% {
+		 	right: 1vw;
+	}
+}
+
+/* Mobile */
+@-webkit-keyframes openmobile {
+	0% {
+		 	right: -100vw;
+	}
+	100% {
+		 	right: 1vw;
+	}
+	
+}
+
+@keyframes openmobile {
+	0% {
+		 	right: -100vw;
+	}
+	100% {
+		 	right: 1vw;
+	}
+}
+
+@-webkit-keyframes closemoblie {
+	100% {
+		 	right: -100vw;
+	}
+	0% {
+		 	right: 1vw;
+	}
+	
+}
+
+@keyframes closemoblie {
+	100% {
+		 	right: -100vw;
+	}
+	0% {
+		 	right: 1vw;
+	}
+}

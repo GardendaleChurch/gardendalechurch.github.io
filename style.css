@@ -1,0 +1,159 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Inter */
+
+
+root,
+html,
+body {
+  height: 98%;
+  width: 99%;
+}
+
+
+#header {
+  width: 100%;
+}
+
+#header h1 {
+  font-family: "Inter", sans-serif;
+  float: left;
+  margin: 25px;
+  font-size: 40px;
+}
+
+
+/* Navigation menu */
+
+#menu-button {
+  float: right;
+  list-style: none;
+  margin-right: 2em;
+  margin: 25px;
+}
+
+#menu-button img {
+  font-size: 40px:
+}
+
+#menu-button:hover {
+  cursor: pointer;
+}
+
+#listitems {
+  position: fixed;
+  right: -21vw;
+  top: 2%;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 85%;
+  width: 20%;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  padding-right: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.menu-open {
+  animation: open ease-in-out 0.5s forwards;
+}
+
+.menu-close {
+  animation: close ease-in-out 0.5s forwards;
+}
+
+.menumobile-open {
+  animation: openmobile ease-in-out 0.5s forwards;
+}
+
+.menumobile-close {
+  animation: closemoblie ease-in-out 0.5s forwards;
+}
+
+#listitems>#closebutton {
+  position: absolute;
+  top: 3%;
+  left: 20px;
+  height: 1em;
+  height: 30px;
+
+}
+
+#listitems>ul {
+  margin: 30px;
+}
+
+#listitems>ul>li {
+  list-style: none;
+}
+
+.appStoreIcons:hover {
+  position: relative;
+  top: 2px;
+}
+
+#GCA {
+  margin: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-in;
+}
+
+#GCA:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* Hyperlink rules */
+
+#listitems a {
+  left: 25%;
+  text-decoration: none;
+  color: rgb(50, 177, 50);
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#listitems a:hover {
+  text-decoration: underline;
+  color: rgb(5, 85, 5);
+}
+
+/* End of Hyperlink rules */
+
+
+/* Mobile style rules */
+
+@media only screen and (max-width: 950px) {
+  #header h1 {
+    font-size: large;
+  }
+
+  #menu-button img {
+    font-size: 10px;
+  }
+
+  #listitems {
+    height: 90%;
+    width: 95%;
+    right: -100vw;
+    top: 2%;
+    overflow: scroll;
+  }
+}
+
+/* End of Mobile style rules */
