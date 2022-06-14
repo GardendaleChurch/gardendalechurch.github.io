@@ -1,4 +1,4 @@
-#GardendaleChurchWebsite
+#gardendalechurch.github.io
 
 Copying this code is prohibited. Copyright 2022 Ephraim Kreighbaum and Gardendale Church.
 
