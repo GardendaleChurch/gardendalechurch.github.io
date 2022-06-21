@@ -24,7 +24,7 @@ body {
 
 #header h2 {
   float: left;
-  
+
   font-family: "Inter", sans-serif;
 }
 
@@ -76,12 +76,8 @@ body {
   animation: close ease-in-out 0.5s forwards;
 }
 
-.menumobile-open {
-  animation: openmobile ease-in-out 0.5s forwards;
-}
-
-.menumobile-close {
-  animation: closemoblie ease-in-out 0.5s forwards;
+#closebutton img {
+  position: absolute;
 }
 
 #listitems>#closebutton {
@@ -177,6 +173,14 @@ body {
     right: -100vw;
     top: 2%;
     overflow: scroll;
+  }
+
+  .menumobile-open {
+    animation: openmobile ease-in-out 0.5s forwards;
+  }
+
+  .menumobile-close {
+    animation: closemoblie ease-in-out 0.5s forwards;
   }
 }
 
