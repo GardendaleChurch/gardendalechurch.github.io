@@ -33,3 +33,15 @@ p {
     transform: translate3d(-50%, -50%, 0);
     will-change: transform;
 }
+
+@media only screen and (max-width: 950px) {
+    #youtubeLogo {
+        width: 50%;
+    }
+
+    #MainContent {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+}
