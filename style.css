@@ -52,10 +52,10 @@ body {
 }
 
 #listitems {
+  overflow: scroll;
   position: fixed;
   right: -21vw;
   top: 2%;
-  overflow: hidden;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
@@ -74,10 +74,6 @@ body {
 
 .menu-close {
   animation: close ease-in-out 0.5s forwards;
-}
-
-#closebutton img {
-  position: absolute;
 }
 
 #listitems>#closebutton {
