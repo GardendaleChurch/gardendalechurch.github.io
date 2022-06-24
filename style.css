@@ -135,6 +135,15 @@ body {
   color: white;
 }
 
+.socialLinks {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.socialLinks:hover {
+  border: 1px solid black;
+}
+
 
 /* Hyperlink rules */
 
