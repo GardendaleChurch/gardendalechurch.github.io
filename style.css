@@ -52,20 +52,27 @@ body {
 }
 
 #listitems {
-  overflow: scroll;
   position: fixed;
   right: -21vw;
   top: 2%;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
-  height: 88%;
+  height: 92%;
   width: 20%;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   padding: 10px;
   padding-right: 0;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#listitems:hover {
+  cursor: default;
+}
+
+#closebutton:hover {
+  cursor: pointer;
 }
 
 .menu-open {
@@ -170,6 +177,7 @@ body {
 
   #menu-button img {
     font-size: 10px;
+    margin-top: 20px;
   }
 
   #listitems {
