@@ -12,14 +12,13 @@ body {
 
 
 #header {
-  width: 100%;
+  float: left;
 }
 
 #header h1 {
+  margin: 25px;
   font-family: "Inter", sans-serif;
   float: left;
-  margin: 25px;
-  font-size: 40px;
 }
 
 #header h2 {
