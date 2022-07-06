@@ -24,7 +24,6 @@ body {
 
 #header h2 {
   float: left;
-
   font-family: "Inter", sans-serif;
 }
 
@@ -171,12 +170,11 @@ body {
 
 @media only screen and (max-width: 950px) {
   #header h1 {
-    font-size: large;
+    font-size: x-large;
   }
 
   #menu-button img {
     font-size: 10px;
-    margin-top: 20px;
   }
 
   #listitems {
@@ -195,5 +193,6 @@ body {
     animation: closemoblie ease-in-out 0.5s forwards;
   }
 }
+
 
 /* End of Mobile style rules */
