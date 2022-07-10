@@ -6,7 +6,12 @@
     transition: all .2s ease-in-out;
 }
 
-.series-left, .series-right:hover {
+.series-left:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.series-right:hover {
     cursor: pointer;
     opacity: 0.5;
 }
