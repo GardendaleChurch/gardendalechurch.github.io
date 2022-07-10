@@ -6,9 +6,46 @@
     transition: all .2s ease-in-out;
 }
 
-.series-left:hover {
+.series-left, .series-right:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+
+.series-right {
+    margin:  25px;
+    float: right;
+    transition: all .2s ease-in-out;
+}
+
+.newest-episode {
+    float: none;
+    margin: 25px;
+}
+
+.youtube-left {
+    margin-left: 10%;
+    margin: 25px;
+    float: left;
+}
+
+.youtube-right {
+    margin-right: 10%;
+    margin: 25px;
+    float: right;
+}
+
+.h2-left {
+    margin-left: 25px;
+    float: left;
+}
+
+.h2-right {
+    margin-right: 25px;
+    float: right;
+}
+
+.mobile-alert {
+    display: none;
 }
 
 
@@ -28,4 +65,19 @@
     .series {
         margin: 25px;
     }
+
+    iframe, h2 {
+        display: none;
+    }
+
+    .mobile-alert {
+        text-align: center;
+        display: block;
+    }
+
+    .mobile-alert h2 {
+        display: block;
+        text-align: center;
+    }
+
 }
