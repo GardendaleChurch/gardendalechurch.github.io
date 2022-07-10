@@ -19,28 +19,34 @@
 
 .newest-episode {
     float: none;
-    margin: 25px;
+    margin: 20px;
 }
 
 .youtube-left {
-    margin-left: 10%;
-    margin: 25px;
+    margin-left: 20px;
     float: left;
 }
 
+.youtube-left iframe {
+    margin-left: 20px;
+}
+
 .youtube-right {
-    margin-right: 10%;
-    margin: 25px;
+    margin-right: 20px;
     float: right;
 }
 
+.youtube-right iframe {
+    margin-right: 20px;
+}
+
 .h2-left {
-    margin-left: 25px;
+    margin-left: 20px;
     float: left;
 }
 
 .h2-right {
-    margin-right: 25px;
+    margin-right: 20px;
     float: right;
 }
 
