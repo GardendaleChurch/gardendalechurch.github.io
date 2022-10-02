@@ -75,3 +75,13 @@
 		 	right: 1vw;
 	}
 }
+
+#listitems {
+	overflow: scroll;
+}
+
+@media only screen and (max-width: 950px) {
+	#listitems {
+		overflow: scroll;
+	}
+}

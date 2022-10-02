@@ -13,6 +13,11 @@ body {
 
 #header {
   float: left;
+  transition: 0.4s;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  border: 1px solid white;
 }
 
 #header h1 {
@@ -29,6 +34,10 @@ body {
 #header a {
   text-decoration: none;
   color: black;
+}
+
+#header:hover {
+  border: 5px solid black;
 }
 
 h2 {
